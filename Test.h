@@ -3,6 +3,7 @@
 
 #include <cstddef>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
@@ -22,6 +23,7 @@ public:
     int getRandomElement();
     void setNumOfTests(size_t numOfIters);
     void setStructSize(size_t dataStructSize);
+
 };
 
 

@@ -10,8 +10,9 @@ DATA_STRUCTURES = [
 ]
 
 MULT = 10000
-
-
+START = 0
+END = 100000
+Stats = []
 # ./TestStructures <structure> <size> <runs>
 # i.e. ./TestStructures HS 1000 100
 execName = "./cmake-build-debug/Test_Structures"
@@ -21,4 +22,7 @@ for dt in DATA_STRUCTURES:
         call(cmd, shell=True)
 
 
-stats = []
+
+from plotter import plot_stats
+
+plot_stats()

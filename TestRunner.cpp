@@ -4,7 +4,7 @@
 #include "TreeSetTest.h"
 #include "VectorTest.h"
 #include "LinkedListTest.h"
-
+#include <fstream>
 
 void TestRunner::selectDataStruct(string &ds) {
 
